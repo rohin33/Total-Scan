@@ -10,7 +10,7 @@ function pause(){
 }
 
 printf 'Checking/installing required tools...\n\n'
-xterm -fg green -bg black -e sudo apt-get install uniscan nmap nikto wpscan -y 
+xterm -fg green -bg black -e sudo apt-get install uniscan xterm nmap nikto wpscan -y 
 printf "Your distro has all necessary essential tools. Script can continue...\n\n"
 pause 'Press [Enter] to continue...'
 
