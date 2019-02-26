@@ -26,6 +26,8 @@ Tools required will be automatically installed when you run the script.
 # Usage: 
 $ apt update -y && apt full-upgrade -y
 
+$ apt-get install xterm
+
 $ git clone https://github.com/rohin33/Total-Scan.git
 
 $ ./totalscan.sh
