@@ -30,3 +30,7 @@ $ git clone https://github.com/rohin33/Total-Scan.git
 
 $ ./totalscan.sh
 
+# Buy me a coffee...:)
+
+# PATRON 
+https://www.patreon.com/rohin
