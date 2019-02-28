@@ -24,9 +24,11 @@ Tools required will be automatically installed when you run the script.
 5. Wordpress Scan
 
 # Usage: 
+$ sudo bash
+
 $ apt update -y && apt full-upgrade -y
 
-$ apt-get install xterm
+$ apt-get install xterm figlet toilet
 
 $ git clone https://github.com/rohin33/Total-Scan.git
 
