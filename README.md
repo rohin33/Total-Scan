@@ -25,7 +25,7 @@ Tools required will be automatically installed when you run the script.
 
 # Usage: 
 
-$sudo apt update -y && apt full-upgrade -y
+>sudo apt update -y && apt full-upgrade -y
 
 $sudo apt-get install xterm figlet toilet
 
