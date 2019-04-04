@@ -35,6 +35,4 @@ $./totalscan.sh
 
 # Buy me a coffee...:)
 
-[![PATREON](http://orig06.deviantart.net/6b5f/f/2017/179/9/a/patreon_logo_icon_button_by_uluri-dbedpot.png)](https://www.patreon.com/rohin)
-
-[![PAYPAL](https://www.paypal.com/webapps/mpp/paypal-popup)](https://www.paypal.me/rohin33)
+[![PATREON](http://orig06.deviantart.net/6b5f/f/2017/179/9/a/patreon_logo_icon_button_by_uluri-dbedpot.png)](https://www.patreon.com/rohin) [![PAYPAL](https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg)](https://www.paypal.me/rohin33)
