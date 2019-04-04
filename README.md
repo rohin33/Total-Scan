@@ -36,6 +36,6 @@ $ ./totalscan.sh
 
 # Buy me a coffee...:)
 
-PATRON: http://tinyurl.com/yxraqqqu
+[PATRON](https://www.patreon.com/rohin)
 
-PAYPAL: http://tinyurl.com/y3wnjw4w
+[PAYPAL](https://www.paypal.me/rohin33)
