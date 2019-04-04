@@ -1,6 +1,6 @@
 # Total-Scan
 
-Total Scan - All in one tool for vulnerability scanning.
+Total Scan - All in one tool for web vulnerability scanning.
 
 
 Author: github.com/rohin33
