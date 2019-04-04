@@ -35,6 +35,6 @@ $./totalscan.sh
 
 # Buy me a coffee...:)
 
-[![PATRON]https://www.patreon.com/](https://www.patreon.com/rohin)
+[![IMAGE ALT TEXT HERE]https://www.patreon.com/](https://www.patreon.com/rohin)
 
 [PAYPAL](https://www.paypal.me/rohin33)
