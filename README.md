@@ -27,7 +27,7 @@ Tools required will be automatically installed when you run the script.
 
 >sudo apt update -y && apt full-upgrade -y
 
-$sudo apt-get install xterm figlet toilet
+Inline 'sudo apt-get install xterm figlet toilet'
 
 $git clone https://github.com/rohin33/Total-Scan.git
 
