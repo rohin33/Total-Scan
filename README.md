@@ -37,4 +37,4 @@ $./totalscan.sh
 
 [![PATREON](http://orig06.deviantart.net/6b5f/f/2017/179/9/a/patreon_logo_icon_button_by_uluri-dbedpot.png)](https://www.patreon.com/rohin)
 
-[PAYPAL](https://www.paypal.me/rohin33)
+[![PAYPAL](https://www.paypal.com/webapps/mpp/paypal-popup)](https://www.paypal.me/rohin33)
