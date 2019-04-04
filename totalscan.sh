@@ -8,23 +8,43 @@ echo '   }----------------------Coded BY Rohin Jain----------------------{'
 function pause(){
    read -p "$*"
 }
-
+#auto check/install requirements
 printf 'Checking/installing required tools...\n\n'
-xterm -fg green -bg black -e sudo apt-get install uniscan xterm nmap nikto wpscan -y 
+xterm -fg green -bg black -e sudo apt-get install uniscan nmap nikto whatweb wafw00f wpscan -y 
 printf "Your distro has all necessary essential tools. Script can continue...\n\n"
 pause 'Press [Enter] to continue...'
-
+#tool starts here
 read -p "Enter Target Url : " Url
 
+echo "(1) Vulnerability Scan"
+echo "(2) Nmap Scan"
+echo "(3) NsLookup"
+echo "(4) Server Scanning"
+echo "(5) Wordpress Scanner"
+echo "(6) WhatWeb Scanner"
+echo "(7) Web Application Firewall Scanner"
 
-printf "01) Vulnerability Scan\n"
-printf "02) Nmap Scan\n"
-printf "03) NsLookup\n"
-printf "04) Server Scanning\n"
-printf "05) Wordpress Scanner\n"
 read -p "Select Your Option : " Option
 
+case $Option in
+ 
+1) echo "Vulnerability Scan" ;;
 
+2) echo "Nmap Scan" ;;
+
+3) echo "NsLookup" ;;
+
+4) echo "Server Scanning" ;;
+
+5) echo "Wordpress Scanner" ;;
+
+6) echo "WhatWeb Scanner" ;;
+
+7) echo "Web Application Firewall Scanner" ;;
+
+*) echo "INVALID INPUT (Please enter a valid number!)" ;;
+
+esac
 
 
 if [ $Option == 1 ] 
@@ -109,7 +129,7 @@ fi
 if [ $Option == 4 ]
 then
 echo 'Starting Server Scanner'
-pause 'Pause [Enter] to Start'
+pause 'Press [Enter] to Start'
 figlet Server Scanner
 echo 'Press [ctrl + c] to exit antime'
 xterm -hold -fg blue -bg black -e nikto -h $url
@@ -118,8 +138,26 @@ fi
 if [ $Option == 5 ]
 then
 echo 'Starting Wordpress Scanner'
-pause 'Pause [Enter] to Start'
+pause 'Press [Enter] to Start'
 figlet Wpscan
 echo 'Press [ctrl + c] to exit anytime'
 xterm -hold -fg blue -bg black -e wpscan --url $Url --verbose --no --stealthy
+fi
+
+if [ $Option == 6 ]
+then
+echo 'Starting WhatWeb Scanner'
+pause 'Press [Enter] to Start'
+figlet WhatWeb Scan
+echo 'Press [ctrl + c] to exit anytime'
+xterm -hold -fg blue -bg black -e whatweb -v -a 4 $Url 
+fi
+
+if [ $Option == 7 ]
+then
+echo 'Starting WAF Scanner'
+pause 'Press [Enter] to Start'
+figlet Web Application Firewall Scanner
+echo 'Press [ctrl + c] to exit anytime'
+xterm -hold -fg red -bg black -e wafw00f -a -v $Url
 fi
