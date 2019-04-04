@@ -1,10 +1,4 @@
 # Total-Scan
- _____     _        _   ____                  
-|_   _|__ | |_ __ _| | / ___|  ___ __ _ _ __  
-  | |/ _ \| __/ _` | | \___ \ / __/ _` | '_ \ 
-  | | (_) | || (_| | |  ___) | (_| (_| | | | |
-  |_|\___/ \__\__,_|_| |____/ \___\__,_|_| |_|
-                                              
 
 Total Scan - All in one tool for vulnerability scanning.
 
@@ -30,15 +24,14 @@ Tools required will be automatically installed when you run the script.
 5. Wordpress Scan
 
 # Usage: 
-$ sudo bash
 
-$ apt update -y && apt full-upgrade -y
+$sudo apt update -y && apt full-upgrade -y
 
-$ apt-get install xterm figlet toilet
+$sudo apt-get install xterm figlet toilet
 
-$ git clone https://github.com/rohin33/Total-Scan.git
+$git clone https://github.com/rohin33/Total-Scan.git
 
-$ ./totalscan.sh
+$./totalscan.sh
 
 # Buy me a coffee...:)
 
