@@ -22,6 +22,8 @@ Tools required will be automatically installed when you run the script.
 3. Nslookup
 4. Server Scan
 5. Wordpress Scan
+6. WhatWeb Scan
+7. Web Application Firewall Scan
 
 # Usage: 
 
