@@ -6,7 +6,7 @@ Total Scan - All in one tool for web vulnerability scanning.
 Author: github.com/rohin33
 
 
-Don't copy this code without give me the credits, nerd!
+Don't copy this code without giving me the credits, nerd!
 
 
 Legal disclaimer:
