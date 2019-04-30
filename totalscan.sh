@@ -111,7 +111,7 @@ read Scan
  pause 'Press [Enter] to Start'
  figlet Slow Comprehensive Scan
  echo 'Press [ctrl + c] to exit anytime'
- xterm -hold -fg red -bg black -e nmap -sS -sU -T4 -A -v -PE -PP -PS80,443 -PA3389 -PU40125 -PY -g 53 --script
+ xterm -hold -fg red -bg black -e nmap -sS -sU -T4 -A -v -PE -PP -PS80,443 -PA3389 -PU40125 -PY -g 53 --script $Url
  fi
 
 fi
