@@ -10,7 +10,7 @@ function pause(){
 }
 #auto check/install requirements
 printf 'Checking/installing required tools...\n\n'
-xterm -fg green -bg black -e sudo apt-get install uniscan nmap nikto whatweb wafw00f wpscan -y 
+xterm -fg green -bg black -e sudo apt-get install uniscan nmap nikto whatweb wafw00f wpscan sublist3r -y 
 printf "Your distro has all necessary essential tools. Script can continue...\n\n"
 pause 'Press [Enter] to continue...'
 #tool starts here
@@ -23,7 +23,7 @@ echo "(4) Server Scanning"
 echo "(5) Wordpress Scanner"
 echo "(6) WhatWeb Scanner"
 echo "(7) Web Application Firewall Scanner"
-
+echo "(8) Sub-Domain Lister"
 read -p "Select Your Option : " Option
 
 case $Option in
@@ -41,6 +41,8 @@ case $Option in
 6) echo "WhatWeb Scanner" ;;
 
 7) echo "Web Application Firewall Scanner" ;;
+
+8) echo "Sub-Domain Lister"
 
 *) echo "INVALID INPUT (Please enter a valid number!)" ;;
 
@@ -161,3 +163,15 @@ figlet Web Application Firewall Scanner
 echo 'Press [ctrl + c] to exit anytime'
 xterm -hold -fg red -bg black -e wafw00f -a -v $Url
 fi
+
+if
+then
+echo 'Starting Sub-Domain Lister'
+pause 'Press [Enter] to Start'
+figlet Sub-Domain Lister
+echo 'Press [ctrl + c] to exit anytime'
+xterm -hold -fg green -bg black -e sublist3r -d $Url -v
+fi
+
+
+#to be continued...
