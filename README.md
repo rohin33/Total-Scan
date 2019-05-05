@@ -24,6 +24,7 @@ Tools required will be automatically installed when you run the script.
 5. Wordpress Scan
 6. WhatWeb Scan
 7. Web Application Firewall Scan
+8. Sub-Domain Lister
 
 # Usage: 
 
